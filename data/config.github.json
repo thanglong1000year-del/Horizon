@@ -14,7 +14,7 @@
     "profiles_dir": "profiles",
     "default_profile": "finance-news",
     "profile_settings": {
-      "finance-news": { "threshold": 5.0, "topic_dedup": true }
+      "finance-news": { "threshold": 3.0, "topic_dedup": true }
     }
   },
   "sources": {
