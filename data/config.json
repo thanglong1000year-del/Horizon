@@ -11,25 +11,12 @@
   },
   "processing": {
     "profiles_dir": "profiles",
-    "default_profile": "tech-news",
+    "default_profile": "finance-news",
     "profile_settings": {
-      "tech-news": {
-        "threshold": 7.0,
-        "topic_dedup": true
-      },
-      "tech-blog": {
-        "threshold": 4.0,
-        "topic_dedup": false
-      },
-      "finance-news": {
-        "threshold": 7.0,
-        "topic_dedup": true
-      }
+      "finance-news": { "threshold": 5.0, "topic_dedup": true }
     }
   },
-  "display": {
-    "icon_style": "emoji"
-  },
+  "display": { "icon_style": "emoji" },
   "email": {
     "enabled": false,
     "smtp_server": "smtp.qq.com",
@@ -42,178 +29,35 @@
     "unsubscribe_keyword": "UNSUBSCRIBE"
   },
   "sources": {
-    "github": [
-      {
-        "type": "user_events",
-        "username": "torvalds",
-        "enabled": true,
-        "profile": "tech-news"
-      },
-      {
-        "type": "repo_releases",
-        "owner": "astral-sh",
-        "repo": "uv",
-        "enabled": true,
-        "profile": "tech-news"
-      }
-    ],
-    "hackernews": {
-      "enabled": true,
-      "fetch_top_stories": 20,
-      "min_score": 100,
-      "profile": "tech-news"
-    },
+    "github": [],
+    "hackernews": { "enabled": false, "fetch_top_stories": 20, "min_score": 100, "profile": "finance-news" },
     "rss": [
-      {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
-        "enabled": true,
-        "category": "ai-tools",
-        "profile": "tech-news"
-      },
-      {
-        "name": "vLLM Blog",
-        "url": "https://vllm.ai/blog/rss.xml",
-        "enabled": true,
-        "category": "llm-inference",
-        "profile": "tech-blog",
-        "content_extractor": "trafilatura"
-      },
-      {
-        "name": "Sean Goedecke",
-        "url": "https://www.seangoedecke.com/rss.xml",
-        "enabled": true,
-        "category": "software-engineering",
-        "profile": "tech-blog",
-        "content_extractor": "trafilatura"
-      },
-      {
-        "name": "CNBC Finance",
-        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news",
-        "content_extractor": "trafilatura"
-      },
-      {
-        "name": "NVIDIA CUDA Technical Blog",
-        "url": "https://developer.nvidia.com/blog/tag/cuda/feed/",
-        "enabled": true,
-        "category": "cuda",
-        "profile": "tech-blog",
-        "content_extractor": "trafilatura"
-      },
-      {
-        "name": "LWN.net (subscriber full-text)",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": false,
-        "category": "linux",
-        "profile": "tech-news"
-      }
+      { "name": "CNBC Finance", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664", "enabled": true, "category": "finance", "profile": "finance-news", "content_extractor": "trafilatura" },
+      { "name": "Investing.com - Commodities", "url": "https://www.investing.com/rss/news_11.rss", "enabled": true, "category": "commodities", "profile": "finance-news", "content_extractor": "trafilatura" },
+      { "name": "Kitco News", "url": "https://www.kitco.com/rss/", "enabled": true, "category": "gold", "profile": "finance-news", "content_extractor": "trafilatura" },
+      { "name": "FXStreet News", "url": "https://www.fxstreet.com/rss/news", "enabled": true, "category": "forex", "profile": "finance-news", "content_extractor": "trafilatura" },
+      { "name": "DailyFX", "url": "https://www.dailyfx.com/feeds/all", "enabled": true, "category": "forex", "profile": "finance-news", "content_extractor": "trafilatura" },
+      { "name": "MarketWatch Top Stories", "url": "http://feeds.marketwatch.com/marketwatch/topstories/", "enabled": true, "category": "markets", "profile": "finance-news", "content_extractor": "trafilatura" }
     ],
-    "reddit": {
-      "enabled": true,
-      "subreddits": [
-        {
-          "subreddit": "MachineLearning",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 50,
-          "profile": "tech-news"
-        }
-      ],
-      "users": [
-        {
-          "username": "iamthatis",
-          "enabled": true,
-          "sort": "new",
-          "fetch_limit": 10,
-          "profile": "tech-news"
-        }
-      ],
-      "fetch_comments": 5
-    },
-    "twitter": {
-      "enabled": false,
-      "users": ["karpathy", "ylecun"],
-      "keywords": [],
-      "fetch_limit": 10,
-      "fetch_reply_text": false,
-      "max_replies_per_tweet": 3,
-      "max_tweets_to_expand": 10,
-      "reply_min_likes": 5,
-      "profile": "tech-news"
-    },
+    "reddit": { "enabled": false, "subreddits": [], "users": [], "fetch_comments": 0 },
+    "twitter": { "enabled": false, "users": [], "keywords": [], "fetch_limit": 0, "fetch_reply_text": false, "max_replies_per_tweet": 0, "max_tweets_to_expand": 0, "reply_min_likes": 0, "profile": "finance-news" },
     "openbb": {
-      "enabled": false,
+      "enabled": true,
       "fetch_filings": false,
       "filings_provider": "sec",
       "watchlists": [
-        {
-          "name": "megacaps",
-          "enabled": true,
-          "provider": "yfinance",
-          "fetch_limit": 20,
-          "category": "equities",
-          "symbols": ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN", "META", "TSLA"],
-          "profile": "tech-news"
-        }
+        { "name": "gold-and-macro", "enabled": true, "provider": "yfinance", "fetch_limit": 20, "category": "commodities", "symbols": ["GC=F", "DX-Y.NYB", "^TNX", "SI=F"], "profile": "finance-news" }
       ]
     },
-    "ossinsight": {
-      "enabled": false,
-      "period": "past_24_hours",
-      "languages": ["All", "Python", "TypeScript"],
-      "keywords": [],
-      "min_stars": 10,
-      "max_items": 30,
-      "profile": "tech-news"
-    },
-    "telegram": {
-      "enabled": true,
-      "channels": [
-        {
-          "channel": "zaihuapd",
-          "enabled": true,
-          "fetch_limit": 20,
-          "profile": ["tech-news", "finance-news"]
-        }
-      ]
-    },
-    "gdelt": {
-      "enabled": false,
-      "query": "artificial intelligence",
-      "mode": "ArtList",
-      "max_records": 75,
-      "timespan": null,
-      "language": null,
-      "country": null,
-      "category": "news",
-      "profile": "tech-news"
-    },
-    "google_news": {
-      "enabled": false,
-      "query": "artificial intelligence",
-      "language": "en",
-      "country": "US",
-      "ceid": null,
-      "max_results": 100,
-      "category": "news",
-      "profile": "tech-news"
-    }
+    "ossinsight": { "enabled": false, "period": "past_24_hours", "languages": [], "keywords": [], "min_stars": 10, "max_items": 30, "profile": "finance-news" },
+    "telegram": { "enabled": false, "channels": [] },
+    "gdelt": { "enabled": false, "query": "gold price XAUUSD", "mode": "ArtList", "max_records": 75, "timespan": null, "language": null, "country": null, "category": "news", "profile": "finance-news" },
+    "google_news": { "enabled": false, "query": "gold price XAUUSD", "language": "en", "country": "US", "ceid": null, "max_results": 100, "category": "news", "profile": "finance-news" }
   },
-  "collection": {
-    "time_window_hours": 24
-  },
+  "collection": { "time_window_hours": 24 },
   "digest": {
     "max_items": null,
-    "profile_order": [
-      "tech-news",
-      "tech-blog",
-      "finance-news"
-    ],
+    "profile_order": ["finance-news"],
     "category_groups": {},
     "default_group": "other",
     "default_group_limit": null
@@ -231,38 +75,18 @@
       "msg_type": "interactive",
       "card": {
         "schema": "2.0",
-        "config": {
-          "wide_screen_mode": true
-        },
-        "header": {
-          "title": {
-            "tag": "plain_text",
-            "content": "#{message_title}"
-          },
-          "template": "blue"
-        },
+        "config": { "wide_screen_mode": true },
+        "header": { "title": { "tag": "plain_text", "content": "#{message_title}" }, "template": "blue" },
         "body": {
           "elements": [
-            {
-              "tag": "markdown",
-              "content": "Horizon生成结果: #{result}\nHorizon日报重要资讯数量: #{important_items}/#{all_items}"
-            },
-            {
-              "tag": "hr"
-            },
-            {
-              "tag": "markdown",
-              "content": "#{summary}"
-            }
+            { "tag": "markdown", "content": "Horizon生成结果: #{result}\nHorizon日报重要资讯数量: #{important_items}/#{all_items}" },
+            { "tag": "hr" },
+            { "tag": "markdown", "content": "#{summary}" }
           ]
         }
       }
     },
     "headers": ""
   },
-  "wechat": {
-    "enabled": false,
-    "languages": null,
-    "chunk_size": 4000
-  }
+  "wechat": { "enabled": false, "languages": null, "chunk_size": 4000 }
 }
