@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Call Perplexity Sonar Pro once per day (Asia/Bangkok) and publish the
+"""Call Perplexity Agent API once per day (Asia/Bangkok) and publish the
 result as a static page under docs/ so the phuong-tho-xauusd skill can
 WebFetch it directly, without needing an MCP connector.
 
@@ -7,6 +7,9 @@ Skips the API call (and any cost) if docs/perplexity-latest.md already
 reflects today's date in Asia/Bangkok time -- this enforces the "max
 1 call per day" requirement even though the workflow may run several
 times a day.
+
+Uses the Agent API (/v1/agent, preset "fast" = Sonar Pro equivalent),
+which replaced the old /chat/completions endpoint in 2026.
 """
 import os
 import sys
@@ -20,7 +23,8 @@ BANGKOK = timezone(timedelta(hours=7))
 OUT_PATH = Path("docs/perplexity-latest.md")
 QUERY = (
     "Tom tat tin tuc vi mo/dia chinh tri/Fed/loi suat quan trong nhat trong "
-    "24 gio qua co kha nang anh huong den gia vang XAUUSD, kem nguon trich dan."
+    "24 gio qua co kha nang anh huong den gia vang XAUUSD, kem nguon trich dan. "
+    "Tra loi ngan gon, chinh xac, bang tieng Viet."
 )
 
 
@@ -37,16 +41,10 @@ def already_done_today() -> bool:
 
 
 def call_perplexity(api_key: str) -> dict:
-    url = "https://api.perplexity.ai/chat/completions"
+    url = "https://api.perplexity.ai/v1/agent"
     payload = {
-        "model": "sonar-pro",
-        "messages": [
-            {
-                "role": "system",
-                "content": "Tra loi ngan gon, chinh xac, bang tieng Viet, luon kem nguon trich dan.",
-            },
-            {"role": "user", "content": QUERY},
-        ],
+        "preset": "fast",
+        "input": QUERY,
     }
     req = urllib.request.Request(
         url,
@@ -57,8 +55,28 @@ def call_perplexity(api_key: str) -> dict:
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=90) as resp:
         return json.loads(resp.read().decode("utf-8"))
+
+
+def extract_answer_and_sources(data: dict):
+    answer = None
+    sources = []
+    for item in data.get("output", []):
+        item_type = item.get("type")
+        if item_type == "message":
+            content = item.get("content") or []
+            for c in content:
+                text = c.get("text")
+                if text:
+                    answer = text
+        elif item_type == "search_results":
+            for r in item.get("results", []):
+                u = r.get("url")
+                t = r.get("title") or u
+                if u:
+                    sources.append((t, u))
+    return answer, sources
 
 
 def main() -> int:
@@ -81,13 +99,10 @@ def main() -> int:
         print(f"Perplexity: loi goi API: {e}", file=sys.stderr)
         return 0
 
-    try:
-        message = data["choices"][0]["message"]["content"]
-    except Exception:
-        print(f"Perplexity: phan hoi khong dung dinh dang: {data}", file=sys.stderr)
+    answer, sources = extract_answer_and_sources(data)
+    if not answer:
+        print(f"Perplexity: phan hoi khong co noi dung: {data}", file=sys.stderr)
         return 0
-
-    citations = data.get("citations") or []
 
     now_bkk = datetime.now(BANGKOK)
     lines = [
@@ -99,13 +114,13 @@ def main() -> int:
         "",
         f"> Cap nhat luc {now_bkk.strftime('%Y-%m-%d %H:%M')} (gio Bangkok, UTC+7)",
         "",
-        message,
+        answer,
         "",
     ]
-    if citations:
+    if sources:
         lines.append("### Nguon trich dan")
-        for i, c in enumerate(citations, start=1):
-            lines.append(f"{i}. {c}")
+        for i, (title, u) in enumerate(sources, start=1):
+            lines.append(f"{i}. [{title}]({u})")
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text("\n".join(lines), encoding="utf-8")
