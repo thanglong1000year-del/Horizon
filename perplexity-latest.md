@@ -4,35 +4,35 @@ title: "Perplexity: tin vi mo anh huong gia vang (cap nhat hang ngay)"
 date: 2026-10-08
 ---
 
-> Cap nhat luc 2026-10-08 18:11 (gio Bangkok, UTC+7)
+> Cap nhat luc 2026-10-08 20:15 (gio Bangkok, UTC+7)
 
-Trong 24 giờ qua, **áp lực chính lên XAUUSD đến từ kỳ vọng Fed duy trì lãi suất cao và lợi suất/USD mạnh**, dù căng thẳng địa chính trị cùng nhu cầu mua vàng của Trung Quốc phần nào hỗ trợ giá.
+Trong 24 giờ qua, **áp lực ngắn hạn lên XAUUSD vẫn nghiêng về giảm**, dù căng thẳng địa chính trị hỗ trợ nhu cầu trú ẩn.
 
-- **Fed:** Biên bản họp tháng 9 cho thấy đa số quan chức vẫn nghiêng về thêm một lần tăng lãi suất trước cuối năm; thị trường giảm kỳ vọng tăng ngay trong tháng 10 nhưng vẫn dự đoán khả năng tăng vào tháng 12. Lãi suất cao hơn thường bất lợi cho vàng không sinh lợi suất.[13]
-- **Lợi suất và USD:** Lợi suất trái phiếu Mỹ kỳ hạn 10 năm có lúc vượt 5,36%—mức cao nhất 24 năm—trong khi USD lên mức cao mới của chu kỳ. Vàng đã có lúc thủng 4.100 USD/oz rồi hồi quanh 4.130 USD/oz.[11][13]
-- **Địa chính trị/năng lượng:** Căng thẳng quanh eo biển Hormuz và rủi ro gián đoạn nguồn cung dầu làm tăng lo ngại lạm phát, qua đó củng cố kỳ vọng lãi suất cao; đây là lực hỗ trợ trú ẩn nhưng cũng có thể gây sức ép lên vàng qua lợi suất.[13]
-- **Lực đỡ:** Ngân hàng Nhân dân Trung Quốc tiếp tục tăng dự trữ vàng tháng thứ 23 liên tiếp, giúp bù một phần áp lực bán ngắn hạn.[13]
+- **Fed:** Biên bản họp tháng 9 cho thấy các nhà hoạch định chính sách đồng thuận tăng lãi suất và phần lớn nghiêng về khả năng tăng thêm trước cuối năm. Thị trường định giá xác suất tăng tháng 12 khoảng 80–85%; lãi suất cao làm giảm sức hấp dẫn của vàng không sinh lợi suất.[14][16]
+- **USD và lợi suất:** USD mạnh và lợi suất trái phiếu Mỹ tăng đã kéo vàng xuống mức thấp nhất khoảng hai tháng hôm thứ Tư. Đây là lực cản trực tiếp với XAUUSD.[11][16]
+- **Địa chính trị/năng lượng:** Tấn công tàu chở dầu quanh eo biển Hormuz làm giảm lưu thông tàu và tăng lo ngại nguồn cung năng lượng. Rủi ro này có thể nâng nhu cầu trú ẩn, nhưng giá năng lượng cao cũng làm tăng lo ngại lạm phát và kỳ vọng Fed giữ lãi suất cao.[11][14]
+- **Diễn biến giá:** Vàng nhích lên khoảng 0,3% trong ngày 8/10 sau đợt giảm mạnh, nhưng vẫn quanh 4.123 USD/ounce; mức hồi phục chưa đảo chiều áp lực từ USD và lợi suất.[11]
 
-**Tác động tổng thể:** thiên hướng ngắn hạn vẫn chịu sức ép nếu USD và lợi suất duy trì cao; biến động địa chính trị có thể tạo các nhịp hồi trú ẩn.[11][13]
+**Tóm lại:** Rủi ro địa chính trị tạo lực đỡ, nhưng Fed cứng rắn, USD mạnh và lợi suất cao đang chi phối—bất lợi cho XAUUSD trong ngắn hạn.
 
 ### Nguon trich dan
-1. [fed - VnEconomy](https://vneconomy.vn/tag/fed)
-2. [Cục Dự trữ Liên bang Mỹ: Toàn tập về quyền lực tài chính Hoa Kỳ](https://www.ebc.com/vi/forex/32584.html)
-3. [Toàn Cảnh: VÀNG BIẾN ĐỘNG MẠNH – Fed TĂNG Hay GIỮ Lãi Suất? Thị Trường Tài Chính “NÓNG” BẤT THƯỜNG](https://www.youtube.com/watch?v=RFswGy9lp9c)
-4. [TOÀN CẢNH: Vì Sao Dự Báo Vàng Bỗng Đảo Chiều 180 Độ? FED Đang Nắm Trong Tay "NÚT HỦY DIỆT"?](https://www.youtube.com/watch?v=nIvtfo9xAhU)
-5. [Fed](https://www.vietnamplus.vn/tag/fed-tag3428.vnp)
-6. [Fed đổi hướng, nhiều đồng tiền mất giá: Hiệu ứng lan sang cả thị trường vàng, cục diện đảo chiều?](https://www.youtube.com/watch?v=d3640_Nzm-Y)
-7. [Giá vàng hôm nay: trong nước SJC giữ vùng 185 triệu/lượng, thế ...](https://www.ebc.com/vi/forex/gia-vang-hom-nay-trong-nuoc-sjc-giu-vung-185-trieu-luong-the-gioi-xau-usd-dao-dong-manh-quanh-5180-khi-usd-ha-nhiet)
-8. [Fed](https://nhandan.vn/tu-khoa/Fed-tag35080.html)
-9. [Tuyên bố diều hâu của Fed: Giao dịch Vàng và cổ phiếu thế nào?](https://www.bitget.com/vi/academy/hawkish-fed-statement-how-to-trade-gold-stocks)
-10. [NÓNG: Vàng mất hơn 3% từ đỉnh, Fed lại “siết van”: 4.539 USD trở thành mốc sống còn? | VTC News](https://www.youtube.com/watch?v=6kFj60N9NPg)
-11. [Market Quick Take - Yields hit 24-year highs after hawkish Fed minutes - 08 October 2026](https://www.home.saxo/en-gb/content/articles/macro/market-quick-take---yields-hit-24-year-highs-after-hawkish-fed-minutes---08-october-2026-08102026)
-12. [Market Quick Take - Yields hit 24-year highs after hawkish Fed minutes - 08 October 2026](https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---yields-hit-24-year-highs-after-hawkish-fed-minutes---08-october-2026-08102026)
-13. [Gold steadies after nine-week low as Hormuz tensions lift Fed hike bets](https://sg.finance.yahoo.com/news/gold-holds-near-nine-week-021738988.html)
-14. [investingLive Asia-Pacific market news: Saudi-Houthi attacks and Gulf storm lift oil](https://investinglive.com/news/investinglive-asia-pacific-market-news-saudi-houthi-attacks-and-gulf-storm-lift-oil/)
-15. [www.riotimesonline.com › global-economy-briefingS&P 500 Closes at Record 7,819 Before Fed Minutes | Global ...](https://www.riotimesonline.com/global-economy-briefing-october-7-2026)
-16. [Gold Down 1% as Dollar Gains; Fed Minutes in Focus](https://english.aawsat.com/business/5326933-gold-down-1-dollar-gains-fed-minutes-focus)
-17. [Gold Inches Lower as Firmer Dollar, Higher Yields Weigh](https://english.aawsat.com/business/5326450-gold-inches-lower-firmer-dollar-higher-yields-weigh)
-18. [www.riotimesonline.com › global-economy-briefing-october-8-2026US Stocks Slip 0.2% as 10-Year Yield Holds 5.3% | Global Economy,...](https://www.riotimesonline.com/global-economy-briefing-october-8-2026/)
-19. [Stocks slide as oil sees volatile trading day over Iran war fears](https://finance.yahoo.com/energy/articles/oil-rises-stocks-fall-hormuz-023838273.html)
-20. [Commodity Corner: Oil gains on supply fears; gold holds firm as yields ease](https://www.moneycontrol.com/news/business/commodities/commodity-corner-oil-gains-on-supply-fears-gold-holds-firm-as-yields-ease-14046028.html/amp)
+1. [Toàn Cảnh: VÀNG BIẾN ĐỘNG MẠNH – Fed TĂNG Hay GIỮ Lãi Suất? Thị Trường Tài Chính “NÓNG” BẤT THƯỜNG](https://www.youtube.com/watch?v=RFswGy9lp9c)
+2. [Bnews - Tin tức kinh tế mới nhất, cập nhật 24h](https://bnews.vn/tag/fed/384875/1.html)
+3. [TOÀN CẢNH: Vì Sao Dự Báo Vàng Bỗng Đảo Chiều 180 Độ? FED Đang Nắm Trong Tay "NÚT HỦY DIỆT"?](https://www.youtube.com/watch?v=nIvtfo9xAhU)
+4. [Fed đổi hướng, nhiều đồng tiền mất giá: Hiệu ứng lan sang cả thị trường vàng, cục diện đảo chiều?](https://www.youtube.com/watch?v=d3640_Nzm-Y)
+5. [Giá vàng hôm nay: trong nước SJC giữ vùng 185 triệu/lượng, thế ...](https://www.ebc.com/vi/forex/gia-vang-hom-nay-trong-nuoc-sjc-giu-vung-185-trieu-luong-the-gioi-xau-usd-dao-dong-manh-quanh-5180-khi-usd-ha-nhiet)
+6. [Tuyên bố diều hâu của Fed: Giao dịch Vàng và cổ phiếu thế nào?](https://www.bitget.com/vi/academy/hawkish-fed-statement-how-to-trade-gold-stocks)
+7. [NÓNG: Vàng mất hơn 3% từ đỉnh, Fed lại “siết van”: 4.539 USD trở thành mốc sống còn? | VTC News](https://www.youtube.com/watch?v=6kFj60N9NPg)
+8. [XAUUSD là gì? Cách đọc giá vàng thế giới, pip, lot và margin từ A đến Z](https://academy.mitrade.com/vi/news/xauusd-la-gi/)
+9. [TOÀN CẢNH: Nếu Fed Giữ Lãi Suất Đến 2027, Giá Vàng Có Thể Hứng Cú “ĐỊA CHẤN” Chưa Từng Thấy?](https://www.youtube.com/watch?v=sCYLCF7KdYk)
+10. [TOÀN CẢNH Vì Sao Vàng Vẫn “BẬT TĂNG” Dù Tân Chủ Tịch Fed Cực “CỨNG”? Bí Ẩn Nợ Công 156% GDP?](https://www.youtube.com/watch?v=A1YSlTRwKZI)
+11. [Gold edges up after hitting two-month low as markets weigh Fed rate path](https://theedgemalaysia.com/node/820973)
+12. [Gold Down 1% as Dollar Gains; Fed Minutes in Focus](https://english.aawsat.com/business/5326933-gold-down-1-dollar-gains-fed-minutes-focus)
+13. [Gold Inches Lower as Firmer Dollar, Higher Yields Weigh](https://english.aawsat.com/business/5326450-gold-inches-lower-firmer-dollar-higher-yields-weigh)
+14. [Gold steadies after nine-week low as Hormuz tensions lift ...](https://uk.finance.yahoo.com/news/gold-steadies-nine-week-low-022008844.html)
+15. [Dollar, Treasury Yields Pressure Gold Ahead of Fed Minutes | TokenPost](https://www.tokenpost.com/news/investing/27370)
+16. [Gold slides to two-month low as robust dollar, yields add ...](https://www.kitco.com/news/off-the-wire/2026-10-07/gold-slides-two-month-low-robust-dollar-yields-add-pressure)
+17. [Gold Struggles as Strong Dollar, Fed Outlook Weigh](https://www.tradingpedia.com/2026/10/08/gold-struggles-as-strong-dollar-fed-outlook-weigh/)
+18. [Gold Inches Higher as Softer US Inflation Dims October Fed Hike Bets](https://ground.news/article/gold-inches-higher-as-softer-us-inflation-dims-october-fed-hike-bets_6e0a4f)
+19. [Fed’s Jefferson Says Central Bank ‘May Take More Time’ Before Hiking Rates Again](https://ground.news/article/feds-jefferson-says-central-bank-may-take-more-time-before-hiking-rates-again_4fbe9f)
+20. [Gold prices recover from two-month low as dollar rally stalls](https://ground.news/article/gold-prices-recover-from-two-month-low-as-dollar-rally-stalls)
