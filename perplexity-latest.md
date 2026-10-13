@@ -1,27 +1,28 @@
 ---
 layout: default
 title: "Perplexity: tin vi mo anh huong gia vang (cap nhat hang ngay)"
-date: 2026-10-13
+date: 2026-10-14
 ---
 
-> Cap nhat luc 2026-10-13 22:15 (gio Bangkok, UTC+7)
+> Cap nhat luc 2026-10-14 02:24 (gio Bangkok, UTC+7)
 
-Trong 24 giờ qua, các yếu tố nổi bật với khả năng gây áp lực lên XAU/USD là:
+Trong 24 giờ qua, các yếu tố được báo cáo nghiêng về **áp lực giảm đối với XAU/USD**:
 
-- **USD mạnh, lợi suất Mỹ cao và kỳ vọng Fed duy trì lập trường cứng rắn**: thị trường đặt cược vào khả năng tăng lãi suất, làm giảm sức hấp dẫn của vàng không sinh lợi suất[1][5].
-- **Trung Đông và rủi ro năng lượng**: căng thẳng địa chính trị hỗ trợ nhu cầu trú ẩn, nhưng giá năng lượng cao cũng làm dấy lên lo ngại lạm phát và lãi suất cao hơn—tác động trái chiều với vàng[1][6].
-- **Chờ CPI Mỹ tháng 9**: dữ liệu có thể làm thay đổi kỳ vọng chính sách Fed và là chất xúc tác gần hạn cho vàng[6].
+- **Fed và USD:** Phát biểu của Chủ tịch Fed Cleveland Beth Hammack củng cố kỳ vọng chính sách tiền tệ cần thắt chặt hơn; USD tăng mạnh, tạo sức ép lên vàng.[6]
+- **Lợi suất và giá dầu:** Lợi suất trái phiếu Mỹ cao cùng giá dầu tăng/bất ổn lấn át nhu cầu trú ẩn từ căng thẳng địa chính trị.[2][8]
+- **Dữ liệu sắp tới:** Thị trường chờ CPI Mỹ tháng 9 để đánh giá lộ trình lãi suất Fed; số liệu nóng có thể làm USD và lợi suất tăng thêm, bất lợi cho vàng.[8]
+- **Diễn biến giá:** Vàng quanh 4.168 USD/oz sáng 13/10; vùng 4.159 USD là hỗ trợ gần, tiếp đến đáy 4.066 USD. Đây là các mốc kỹ thuật, không phải dự báo chắc chắn.[2][6]
 
-**Tổng quan:** thiên hướng ngắn hạn còn chịu sức ép từ USD/lợi suất; diễn biến CPI và tin địa chính trị có thể khiến giá biến động mạnh. XAU/USD đang quanh vùng 4.150–4.200 USD/oz theo các cập nhật gần nhất trong nguồn[1][7].
+**Tóm lại:** Bối cảnh ngắn hạn thiên về tiêu cực cho vàng; CPI Mỹ và biến động lợi suất/USD là các chất xúc tác đáng theo dõi.[2][8]
 
 ### Nguon trich dan
-1. [Dự báo, Tin tức và Phân tích Vàng (XAU/USD) - FXStreet](https://www.fxstreet-vn.com/markets/commodities/metals/gold)
-2. [Biểu đồ giá vàng trực tuyến | Giá XAUUSD | Tỷ giá vàng hôm nay](https://www.traderins.com/markets/commodities/XAUUSD)
+1. [Biểu đồ giá vàng trực tuyến | Giá XAUUSD | Tỷ giá vàng hôm nay](https://www.traderins.com/markets/commodities/XAUUSD)
+2. [Dự báo, Tin tức và Phân tích Vàng (XAU/USD) - FXStreet](https://www.fxstreet-vn.com/markets/commodities/metals/gold)
 3. [TOÀN CẢNH: Vàng “LAO DỐC” 1.500 USD, Chạm Đáy 9 Tuần – FED Tung Đòn Mới, Thị Trường “CHOÁNG VÁNG”?](https://www.youtube.com/watch?v=UEDwo_viZyg)
-4. [Kinh nghiệm giao dịch vàng XAUUSD hiệu quả Phần I](https://fialda.com/blog/huong-dan/24/kinh-nghiem-giao-dich-vang-xauusd-hieu-qua-phan-i/83)
-5. [Cục Dự trữ liên bang Mỹ](https://baomoi.com/cuc-du-tru-lien-bang-my-t25782181.epi)
-6. [Dự báo tiền tệ - Thông tin về thị trường tài chính, forex, bitcoin ...](https://dubaotiente.net/)
-7. [Dự báo giá vàng: Giá dầu giảm hỗ trợ giá vàng, rủi ro tăng lãi suất của ngân hàng trung ương vẫn là yếu tố then chốt](https://www.tradingkey.com/vn/analysis/commodities/kim-loai-quy/262210692-gold-price-forecast-oil-pullback-lifts-gold-tradingkey)
-8. [Fed - Tin tức online 24h mới nhất hôm nay - Báo Mới](https://baomoi.com/fed-tag525.epi)
-9. [XAU USD | Tỷ giá vàng hôm nay](https://vn.investing.com/currencies/xau-usd)
+4. [Cục Dự trữ liên bang Mỹ](https://baomoi.com/cuc-du-tru-lien-bang-my-t25782181.epi)
+5. [FED : Giá bạc ngày 10/10 tại Phú Quý, DOJI, Sacombank, ...](https://cafef.vn/fed.html)
+6. [Fed - Tin tức online 24h mới nhất hôm nay - Báo Mới](https://baomoi.com/fed-tag525.epi)
+7. [Kinh nghiệm giao dịch vàng XAUUSD hiệu quả Phần I](https://fialda.com/blog/huong-dan/24/kinh-nghiem-giao-dich-vang-xauusd-hieu-qua-phan-i/83)
+8. [Dự báo tiền tệ - Thông tin về thị trường tài chính, forex, bitcoin ...](https://dubaotiente.net/)
+9. [FedWatch](https://baomoi.com/tag/FedWatch.epi)
 10. [NÓNG: Vàng mất hơn 3% từ đỉnh, Fed lại “siết van”: 4.539 USD trở thành mốc sống còn? | VTC News](https://www.youtube.com/watch?v=6kFj60N9NPg)
