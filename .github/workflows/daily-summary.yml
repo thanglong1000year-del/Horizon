@@ -1,11 +1,11 @@
 name: Daily Horizon Summary
 
 on:
-  schedule:
-    # GitHub scheduled workflows use UTC. 20:00 UTC is 04:00 Asia/Shanghai;
-    # this intentionally runs early to offset the observed schedule delay.
-    - cron: '0 0,7,11,13,15,19 * * *'
-  workflow_dispatch:      # Allow manual trigger
+  # Cron schedule removed 2026-11-04: GitHub auto-disabled Actions on this
+  # fork ("Workflows are not currently being run on this fork due to the
+  # scale of GitHub Actions usage"). Now runs only on demand (workflow_dispatch),
+  # triggered when the user asks for a news update, instead of several times/day.
+  workflow_dispatch:      # Allow manual/API trigger
 
 jobs:
   daily-summary:
